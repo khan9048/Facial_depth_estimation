@@ -5,7 +5,7 @@ This is the project page for our research "    [supplemetary]
 We will also update latest progress and available sources to this repository~ 
 
 # Note
-This repository contains PyTorch implementations of https://github.com/ialhashim/DenseDepth on our new high quality generated 3D synthetic dataset.
+This repository contains PyTorch implementations of the paper 'Accurate 2D Facial Depth Models Derived from a 3D Synthetic Dataset' on our new high quality generated 3D synthetic dataset along with training on https://github.com/ialhashim/DenseDepth.
 
 # Requirements
 pip install...:
@@ -19,7 +19,7 @@ The datasets are released and can be downloaded from the following link...
 python test.py
 
 # Evaluation
-python eval_new.py
+python eval.py
 
 # Training
 Once the dataset is ready, you can train the network using following command.
