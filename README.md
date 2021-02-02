@@ -1,6 +1,13 @@
 # Group_C3I-Team---3D-Synthetic-Data-Projects-group
-3D-Synthetic-Data:
-This is the project page for our research "    [supplemetary]
+3D-Synthetic-Data:<br/>
+This is the project page for our research<br/>
+
+High-Accuracy Facial Depth Models derived from 3D Synthetic Data<br/>
+https://ieeexplore.ieee.org/document/9180166<br/>
+
+Methodology for Building Synthetic Datasets with Virtual Humans<br/>
+https://ieeexplore.ieee.org/abstract/document/9180188<br/>
+
 
 We will also update latest progress and available sources to this repository~ 
 
