@@ -22,7 +22,7 @@ python test.py
 python eval.py
 
 # Training
-Once the dataset is ready, you can train the network using following command.
+Once the dataset is ready, you can train the network using following command.<br/>
 python train.py
 
 # Modified https://www.github.com/keras-team/keras-contrib.git
