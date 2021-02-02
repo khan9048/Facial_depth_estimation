@@ -20,8 +20,8 @@ keras, Pillow, matplotlib, opencv-python, scikit-image, sklearn, pathlib, pandas
 pip install https://www.github.com/keras-team/keras-contrib.git, torch, torchvision
 
 # Data
-The datasets are released and can be downloaded from the following link...
-!{}(Group_C3I-Team---3D-Synthetic-Data-Projects-group/blob/main/FaceDepth/figures/Fk_CVPR_01.png)
+The datasets are released and can be downloaded from the following link...<br/>
+
 
 # Testing
 python test.py
