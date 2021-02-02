@@ -21,7 +21,9 @@ pip install https://www.github.com/keras-team/keras-contrib.git, torch, torchvis
 
 # Data
 The datasets are released and can be downloaded from the following link...<br/>
+
 ![Fk_CVPR_01](https://user-images.githubusercontent.com/49758542/106660724-4743eb80-6598-11eb-9387-5f6a451f53f7.png)
+
 ![da](https://user-images.githubusercontent.com/49758542/106660977-9ab63980-6598-11eb-8754-3235cfd43bf3.png)
 
 
@@ -40,6 +42,10 @@ python train.py
 open the FaceDepth directory 
 # Testing
 python Facedepth_test.py
+
+![FK_CVPR_03](https://user-images.githubusercontent.com/49758542/106661328-fa144980-6598-11eb-8b80-8ae82d9a8164.png)
+
+![Fk_CVPR_04](https://user-images.githubusercontent.com/49758542/106661542-39429a80-6599-11eb-8efa-519a39d7628e.png)
 
 This will save results into the 'pre_syn_test' folder
 
