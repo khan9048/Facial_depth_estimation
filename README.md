@@ -32,21 +32,6 @@ python eval.py
 Once the dataset is ready, you can train the network using following command.<br/>
 python train.py
 
-# Citation
-If you find the code, models, or data useful, please cite this paper:<br/>
-F. Khan, S. Basak, H. Javidnia, M. Schukat and P. Corcoran, "High-Accuracy Facial Depth Models derived from 3D Synthetic Data," 2020 31st Irish Signals and Systems Conference (ISSC), Letterkenny, Ireland, 2020, pp. 1-5, doi: 10.1109/ISSC49989.2020.9180166.<br/>
-
-S. Basak, H. Javidnia, F. Khan, R. McDonnell and M. Schukat, "Methodology for Building Synthetic Datasets with Virtual Humans," 2020 31st Irish Signals and Systems Conference (ISSC), Letterkenny, Ireland, 2020, pp. 1-6, doi: 10.1109/ISSC49989.2020.9180188.<br/>
-
-@article{alhashim2018high,
-  title={High quality monocular depth estimation via transfer learning},
-  author={Alhashim, Ibraheem and Wonka, Peter},
-  journal={arXiv preprint arXiv:1812.11941},
-  year={2018}
-}
-
-
-
 # Modified https://www.github.com/keras-team/keras-contrib.git
 open the FaceDepth directory 
 # Testing
@@ -61,5 +46,17 @@ python eval.py
 Once the dataset is ready, you can train the network using following command.<br/>
 python train.py
 
+# Citation
+If you find the code, models, or data useful, please cite this paper:<br/>
+F. Khan, S. Basak, H. Javidnia, M. Schukat and P. Corcoran, "High-Accuracy Facial Depth Models derived from 3D Synthetic Data," 2020 31st Irish Signals and Systems Conference (ISSC), Letterkenny, Ireland, 2020, pp. 1-5, doi: 10.1109/ISSC49989.2020.9180166.<br/>
+
+S. Basak, H. Javidnia, F. Khan, R. McDonnell and M. Schukat, "Methodology for Building Synthetic Datasets with Virtual Humans," 2020 31st Irish Signals and Systems Conference (ISSC), Letterkenny, Ireland, 2020, pp. 1-6, doi: 10.1109/ISSC49989.2020.9180188.<br/>
+
+@article{alhashim2018high,
+  title={High quality monocular depth estimation via transfer learning},
+  author={Alhashim, Ibraheem and Wonka, Peter},
+  journal={arXiv preprint arXiv:1812.11941},
+  year={2018}
+}
 
 
