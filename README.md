@@ -21,6 +21,7 @@ pip install https://www.github.com/keras-team/keras-contrib.git, torch, torchvis
 
 # Data
 The datasets are released and can be downloaded from the following link...
+!{}
 
 # Testing
 python test.py
