@@ -25,4 +25,19 @@ python eval.py
 Once the dataset is ready, you can train the network using following command.
 python train.py
 
-# 
+# Modified https://www.github.com/keras-team/keras-contrib.git
+open the FaceDepth directory 
+# Testing
+python Facedepth_test.py
+
+This will save results into the 'pre_syn_test' folder
+
+# Evaluation
+python eval.py
+
+# Training
+Once the dataset is ready, you can train the network using following command.
+python train.py
+
+
+
