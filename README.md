@@ -36,7 +36,7 @@ This will save results into the 'pre_syn_test' folder
 python eval.py
 
 # Training
-Once the dataset is ready, you can train the network using following command.(<-- two spaces)
+Once the dataset is ready, you can train the network using following command.<br/>
 python train.py
 
 
