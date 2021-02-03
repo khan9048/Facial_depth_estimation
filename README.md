@@ -43,7 +43,8 @@ open the FaceDepth directory
 # Testing
 python Facedepth_test.py
 
-![FK_CVPR_03](https://user-images.githubusercontent.com/49758542/106661328-fa144980-6598-11eb-8b80-8ae82d9a8164.png)
+![data_mix](https://user-images.githubusercontent.com/49758542/106769813-49a85300-6635-11eb-9b73-dd9935f8989d.png)
+
 
 ![Fk_CVPR_04](https://user-images.githubusercontent.com/49758542/106661542-39429a80-6599-11eb-8efa-519a39d7628e.png)
 
