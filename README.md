@@ -31,9 +31,6 @@ The datasets are released and can be downloaded from the following link...<br/>
 # Testing
 python test.py
 
-# Evaluation
-python eval.py
-
 # Training
 Once the dataset is ready, you can train the network using following command.<br/>
 python train.py
@@ -48,9 +45,6 @@ python Facedepth_test.py
 ![Fk_CVPR_04](https://user-images.githubusercontent.com/49758542/106661542-39429a80-6599-11eb-8efa-519a39d7628e.png)
 
 This will save results into the 'pre_syn_test' folder
-
-# Evaluation
-python eval.py
 
 # Training
 Once the dataset is ready, you can train the network using following command.<br/>
