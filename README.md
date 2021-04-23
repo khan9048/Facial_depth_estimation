@@ -12,7 +12,12 @@ https://ieeexplore.ieee.org/abstract/document/9180188<br/>
 We will also update latest progress and available sources to this repository~ 
 
 # Note
-This repository contains PyTorch implementations of the paper 'Accurate 2D Facial Depth Models Derived from a 3D Synthetic Dataset' on our new high quality generated 3D synthetic dataset along with training on https://github.com/ialhashim/DenseDepth.
+This repository contains PyTorch implementations of the paper 'An Efficient Encoder-Decoder Model for Portrait Depth Estimation from Single Images
+trained on Pixel-Accurate Synthetic Data' on our new high quality generated 3D synthetic dataset along with training on 
+
+https://github.com/ialhashim/DenseDepth.
+
+https://github.com/cogaplex-bts/bts
 
 # Requirements
 pip install...:
