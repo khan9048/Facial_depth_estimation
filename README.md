@@ -41,7 +41,10 @@ Once the dataset is ready, you can train the network using following command.<br
 python train.py
 
 # Modified https://www.github.com/keras-team/keras-contrib.git
-open the FaceDepth directory 
+open the FaceDepth directory and download the pre-trained model the following link:
+
+https://nuigalwayie-my.sharepoint.com/:u:/g/personal/f_khan4_nuigalway_ie/EepkuVajAhdIjZoQm5Weyx4BjXcEZy-uw5OWxxMXq1WJPA?e=rv3aSY
+
 # Testing
 python Facedepth_test.py
 
