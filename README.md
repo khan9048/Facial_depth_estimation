@@ -25,7 +25,7 @@ keras, Pillow, matplotlib, opencv-python, scikit-image, sklearn, pathlib, pandas
 pip install https://www.github.com/keras-team/keras-contrib.git, torch, torchvision
 
 # Data
-The datasets are released and can be downloaded from the following link...<br/>
+contact me on the following email: f.khan4@nuigalway.ie for the complete dataset, I will provide the download link <br/>
 
 ![data_mix](https://user-images.githubusercontent.com/49758542/106769813-49a85300-6635-11eb-9b73-dd9935f8989d.png)
 
