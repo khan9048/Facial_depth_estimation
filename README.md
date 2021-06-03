@@ -103,6 +103,12 @@ $ https://github.com/cogaplex-bts/bts
 
 $ https://github.com/ialhashim/DenseDepth
 
+#### Training UNet_sample on synthetic facial depth dataset.
+We referred to Facial_depth_estimation:
+```
+$ python train.py --batch_size 6 --epochs 25 
+```
+
 ## Results 
 ![image](https://user-images.githubusercontent.com/49758542/120593394-55672300-c437-11eb-8368-29078c44c38c.png)
 
