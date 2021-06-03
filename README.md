@@ -57,11 +57,10 @@ We prepared the dataset for training and testing<br/>
 contact me on the following email: f.khan4@nuigalway.ie for the complete dataset, I will provide the download link <br/>
 
 #### Random sample frames with high-resolutions RGB images and their corresponding ground truth depth with differentvariations<br/>
-![data_mix](https://user-images.githubusercontent.com/49758542/106769813-49a85300-6635-11eb-9b73-dd9935f8989d.png)
+![image](https://user-images.githubusercontent.com/49758542/120597022-69f9ea00-c43c-11eb-9f45-9ff18161b662.png)
 
 #### Samples from the generated synthetic data with different variation of head pose
-![da](https://user-images.githubusercontent.com/49758542/106660977-9ab63980-6598-11eb-8754-3235cfd43bf3.png)
-
+![image](https://user-images.githubusercontent.com/49758542/120597197-a9c0d180-c43c-11eb-869b-d296ad62a36c.png)
 ## Live Demo
 We attach live demo implementation for Pytorch. \
 Note change the model check point name if different 
