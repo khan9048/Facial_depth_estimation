@@ -119,11 +119,8 @@ Qualitative results of a facial monocular depth estimation methods
 
 ![rrrr](https://user-images.githubusercontent.com/49758542/120594025-34530200-c438-11eb-920a-4f7c8640b57f.png)
 
-
-
-
 # Citation
-If you find the code, models, or data useful, please cite these paper:<br/>
+For more in-depth information please see the below papers and If you find the code, models, or data useful, please cite these paper:<br/>
 F. Khan, S. Basak, H. Javidnia, M. Schukat and P. Corcoran, "High-Accuracy Facial Depth Models derived from 3D Synthetic Data," 2020 31st Irish Signals and Systems Conference (ISSC), Letterkenny, Ireland, 2020, pp. 1-5, doi: 10.1109/ISSC49989.2020.9180166.<br/>
 
 S. Basak, H. Javidnia, F. Khan, R. McDonnell and M. Schukat, "Methodology for Building Synthetic Datasets with Virtual Humans," 2020 31st Irish Signals and Systems Conference (ISSC), Letterkenny, Ireland, 2020, pp. 1-6, doi: 10.1109/ISSC49989.2020.9180188.<br/>
