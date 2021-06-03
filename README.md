@@ -27,7 +27,7 @@ We will also update latest progress and available sources to this repository~
 ## Note
 This repository contains PyTorch implementations of FaceDepth, UNet-Simple, BTS, DenseDepth.
 
-## Generation Process of the Dataset
+## Dataset Generation Process
 ![data_method](https://user-images.githubusercontent.com/49758542/120590876-1fc03b00-c433-11eb-825f-2bd3ec8bc538.png)
 
 ## Setup & Requirements
