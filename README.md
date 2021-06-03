@@ -24,7 +24,10 @@ We will also update latest progress and available sources to this repository~
 	
 ## Note
 This repository contains PyTorch implementations of FaceDepth, UNet-Simple, BTS, DenseDepth.
-	
+
+## Generation Process of the Dataset
+![data_method](https://user-images.githubusercontent.com/49758542/120590876-1fc03b00-c433-11eb-825f-2bd3ec8bc538.png)
+
 ## Setup & Requirements
 To run this project, install it locally using pip install...:
 
@@ -58,59 +61,66 @@ contact me on the following email: f.khan4@nuigalway.ie for the complete dataset
 ![da](https://user-images.githubusercontent.com/49758542/106660977-9ab63980-6598-11eb-8754-3235cfd43bf3.png)
 
 ## Live Demo
-We attach live 3d demo implementations for Pytorch. \
-Sample usage for PyTorch:
+We attach live demo implementation for Pytorch. \
+Note change the model check point name if different 
 ```
-$ cd ~/workspace/bts/pytorch
-$ python bts_live_3d.py --model_name bts_nyu_v2_pytorch_densenet161 \
---encoder densenet161_bts \
---checkpoint_path ./models/bts_nyu_v2_pytorch_densenet161/model \
---max_depth 10 \
---input_height 480 \
---input_width 640
+$ cd FaceDepth
+$ python live_demo.py
 ```
+## Testing
+First make sure that you have some images (RGB and depth) or you can use our test images: (rgb_syn_test) and (gt_syn_test).
+```shell
+$ cd FaceDepth
+$ make a folder and keep your RGB images in that  
+$ make a folder and keep your gt depth images in that
+$ Change the path in the Facedepth_test.py
+$ Name a folder that you want to save the predicted results (images)  
+```
+Once the preparation steps completed, you can test using following commands.
+```
+$ cd FaceDepth
+$ python Facedepth_test.py
+```
+![image](https://user-images.githubusercontent.com/49758542/120592291-80e90e00-c435-11eb-832e-45b55b014336.png)
+
+## Training
+Once the dataset download process completed, please make sure unzip all the data into a new folder and follow the following steps:
+```shell
+$ cd FaceDepth
+$ Download the .csv or .txt files
+$ Change the paths in the train.py  
+```
+Once the preparation steps completed, you can train using following commands.
+```
+$ cd FaceDepth
+$ python train.py --batch_size 4 --epochs 25 
+```
+#### Training BTS and DenseDepth methods for our synthetic facial depth dataset.
+We referred to BTS and DenseDepth:
+
+$ https://github.com/cogaplex-bts/bts
+
+$ https://github.com/ialhashim/DenseDepth
+
+## Results 
+![image](https://user-images.githubusercontent.com/49758542/120593394-55672300-c437-11eb-8368-29078c44c38c.png)
+
+Properties of the studied methods
+![image](https://user-images.githubusercontent.com/49758542/120593446-6fa10100-c437-11eb-928e-a0f38f7c4a32.png)
+
+Qualitative results of a facial monocular depth estimation methods
+![image](https://user-images.githubusercontent.com/49758542/120593540-919a8380-c437-11eb-8bdb-1498b4472795.png)
+
+![rrrr](https://user-images.githubusercontent.com/49758542/120594025-34530200-c438-11eb-920a-4f7c8640b57f.png)
 
 
 
-
-# Testing
-python test.py
-
-# Training
-Once the dataset is ready, you can train the network using following command.<br/>
-python train.py
-
-# Modified https://www.github.com/keras-team/keras-contrib.git
-
-# Testing
-
-download the pre-trained model and keep in the FaceDepth directory to test.
-
-https://nuigalwayie-my.sharepoint.com/:u:/g/personal/f_khan4_nuigalway_ie/EepkuVajAhdIjZoQm5Weyx4BjXcEZy-uw5OWxxMXq1WJPA?e=rv3aSY
-
-python Facedepth_test.py
-
-![FK_CVPR_03](https://user-images.githubusercontent.com/49758542/106770165-99871a00-6635-11eb-98f8-b7cab4fe6938.png)
-
-![Fk_CVPR_04](https://user-images.githubusercontent.com/49758542/106661542-39429a80-6599-11eb-8efa-519a39d7628e.png)
-
-This will save results into the 'pre_syn_test' folder
-
-# Training
-Once the dataset is ready, you can train the network using following command.<br/>
-python train.py
 
 # Citation
-If you find the code, models, or data useful, please cite this paper:<br/>
+If you find the code, models, or data useful, please cite these paper:<br/>
 F. Khan, S. Basak, H. Javidnia, M. Schukat and P. Corcoran, "High-Accuracy Facial Depth Models derived from 3D Synthetic Data," 2020 31st Irish Signals and Systems Conference (ISSC), Letterkenny, Ireland, 2020, pp. 1-5, doi: 10.1109/ISSC49989.2020.9180166.<br/>
 
 S. Basak, H. Javidnia, F. Khan, R. McDonnell and M. Schukat, "Methodology for Building Synthetic Datasets with Virtual Humans," 2020 31st Irish Signals and Systems Conference (ISSC), Letterkenny, Ireland, 2020, pp. 1-6, doi: 10.1109/ISSC49989.2020.9180188.<br/>
 
-@article{alhashim2018high,
-  title={High quality monocular depth estimation via transfer learning},
-  author={Alhashim, Ibraheem and Wonka, Peter},
-  journal={arXiv preprint arXiv:1812.11941},
-  year={2018}
-}
 
 
