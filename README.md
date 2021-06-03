@@ -1,4 +1,4 @@
-## Group_C3I-Team---3D-Synthetic-Data-Projects-group
+## Facial Depth Estimation: 3D and 2D-Synthetic-Data---Group_C3I-Team---
 * [Modeling of the Synthetic Dataset: Pixel-accurate facial depth generation process](#general-info)
 * [Evaluating State-of-Art models for Single Image Depth Estimation](#technologies)
 * [An Encoder-decoder based Facial Depth Estimation Model](#setup)
