@@ -19,6 +19,12 @@ https://ieeexplore.ieee.org/abstract/document/9180188<br/>
 Learning 3D Head Pose From Synthetic Data: A Semi-Supervised Approach<br/>
 https://ieeexplore.ieee.org/abstract/document/9369299<br/>
 
+Accurate 2D Facial Depth Models Derived from a 3D Synthetic Dataset
+https://ieeexplore.ieee.org/abstract/document/9427595<br/>
+
+
+
+
 
 We will also update latest progress and available sources to this repository~ 
 	
@@ -121,6 +127,37 @@ If you find the code, models, or data useful, please cite these paper:<br/>
 F. Khan, S. Basak, H. Javidnia, M. Schukat and P. Corcoran, "High-Accuracy Facial Depth Models derived from 3D Synthetic Data," 2020 31st Irish Signals and Systems Conference (ISSC), Letterkenny, Ireland, 2020, pp. 1-5, doi: 10.1109/ISSC49989.2020.9180166.<br/>
 
 S. Basak, H. Javidnia, F. Khan, R. McDonnell and M. Schukat, "Methodology for Building Synthetic Datasets with Virtual Humans," 2020 31st Irish Signals and Systems Conference (ISSC), Letterkenny, Ireland, 2020, pp. 1-6, doi: 10.1109/ISSC49989.2020.9180188.<br/>
+
+
+
+  
+  ## Citation
+If you find this work useful for your research, please consider citing our paper:
+```
+@INPROCEEDINGS{9427595,
+  author={Khan, Faisal and Basak, Shubhajit and Corcoran, Peter},
+  booktitle={2021 IEEE International Conference on Consumer Electronics (ICCE)}, 
+  title={Accurate 2D Facial Depth Models Derived from a 3D Synthetic Dataset}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/ICCE50685.2021.9427595}}
+  
+  @INPROCEEDINGS{9180166,
+  author={Khan, Faisal and Basak, Shubhajit and Javidnia, Hossein and Schukat, Michael and Corcoran, Peter},
+  booktitle={2020 31st Irish Signals and Systems Conference (ISSC)}, 
+  title={High-Accuracy Facial Depth Models derived from 3D Synthetic Data}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-5},
+  doi={10.1109/ISSC49989.2020.9180166}}
+  
+  @INPROCEEDINGS{9180188,  author={Basak, Shubhajit and Javidnia, Hossein and Khan, Faisal and McDonnell, Rachel and Schukat, Michael},  booktitle={2020 31st Irish Signals and Systems Conference (ISSC)},   title={Methodology for Building Synthetic Datasets with Virtual Humans},   year={2020},  volume={},  number={},  pages={1-6},  doi={10.1109/ISSC49989.2020.9180188}}
+  
+  @ARTICLE{9369299,  author={Basak, Shubhajit and Corcoran, Peter and Khan, Faisal and Mcdonnell, Rachel and Schukat, Michael},  journal={IEEE Access},   title={Learning 3D Head Pose From Synthetic Data: A Semi-Supervised Approach},   year={2021},  volume={9},  number={},  pages={37557-37573},  doi={10.1109/ACCESS.2021.3063884}}
+```
 
 
 
