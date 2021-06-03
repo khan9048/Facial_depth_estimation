@@ -154,9 +154,25 @@ If you find this work useful for your research, please consider citing our paper
   pages={1-5},
   doi={10.1109/ISSC49989.2020.9180166}}
   
-  @INPROCEEDINGS{9180188,  author={Basak, Shubhajit and Javidnia, Hossein and Khan, Faisal and McDonnell, Rachel and Schukat, Michael},  booktitle={2020 31st Irish Signals and Systems Conference (ISSC)},   title={Methodology for Building Synthetic Datasets with Virtual Humans},   year={2020},  volume={},  number={},  pages={1-6},  doi={10.1109/ISSC49989.2020.9180188}}
+  @ARTICLE{9369299,
+  author={Basak, Shubhajit and Corcoran, Peter and Khan, Faisal and Mcdonnell, Rachel and Schukat, Michael},
+  journal={IEEE Access}, 
+  title={Learning 3D Head Pose From Synthetic Data: A Semi-Supervised Approach}, 
+  year={2021},
+  volume={9},
+  number={},
+  pages={37557-37573},
+  doi={10.1109/ACCESS.2021.3063884}}
   
-  @ARTICLE{9369299,  author={Basak, Shubhajit and Corcoran, Peter and Khan, Faisal and Mcdonnell, Rachel and Schukat, Michael},  journal={IEEE Access},   title={Learning 3D Head Pose From Synthetic Data: A Semi-Supervised Approach},   year={2021},  volume={9},  number={},  pages={37557-37573},  doi={10.1109/ACCESS.2021.3063884}}
+  @INPROCEEDINGS{9180188,
+  author={Basak, Shubhajit and Javidnia, Hossein and Khan, Faisal and McDonnell, Rachel and Schukat, Michael},
+  booktitle={2020 31st Irish Signals and Systems Conference (ISSC)}, 
+  title={Methodology for Building Synthetic Datasets with Virtual Humans}, 
+  year={2020},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/ISSC49989.2020.9180188}}
 ```
 
 
