@@ -1,6 +1,14 @@
-# Group_C3I-Team---3D-Synthetic-Data-Projects-group
-3D-Synthetic-Data:<br/>
-This is the project page for our research<br/>
+## Group_C3I-Team---3D-Synthetic-Data-Projects-group
+* [Modeling of the Synthetic Dataset: Pixel-accurate facial depth generation process](#general-info)
+* [Evaluating State-of-Art models for Single Image Depth Estimation](#technologies)
+* [An Encoder-decoder based Facial Depth Estimation Model](#setup)
+* [Hybrid Loss Function](#setup1)
+
+## Single Frame Image Facial Depth Estimation
+This is the project page for our research:<br/>
+
+An Efficient Encoder-Decoder Model for Portrait Depth Estimation
+from Single Images trained on Pixel-Accurate Synthetic Data
 
 High-Accuracy Facial Depth Models derived from 3D Synthetic Data<br/>
 https://ieeexplore.ieee.org/document/9180166<br/>
@@ -8,28 +16,60 @@ https://ieeexplore.ieee.org/document/9180166<br/>
 Methodology for Building Synthetic Datasets with Virtual Humans<br/>
 https://ieeexplore.ieee.org/abstract/document/9180188<br/>
 
+Learning 3D Head Pose From Synthetic Data: A Semi-Supervised Approach<br/>
+https://ieeexplore.ieee.org/abstract/document/9369299<br/>
+
 
 We will also update latest progress and available sources to this repository~ 
+	
+## Note
+This repository contains PyTorch implementations of FaceDepth, UNet-Simple, BTS, DenseDepth.
+	
+## Setup & Requirements
+To run this project, install it locally using pip install...:
 
-# Note
-This repository contains PyTorch implementations of the paper 'An Efficient Encoder-Decoder Model for Portrait Depth Estimation from Single Images
-trained on Pixel-Accurate Synthetic Data' on our new high quality generated 3D synthetic dataset along with training on 
+```
+$ pip install keras, Pillow, matplotlib, opencv-python, scikit-image, sklearn, pathlib, pandas, -U efficientnet,
+$ pip install https://www.github.com/keras-team/keras-contrib.git, torch, torchvision
+```
 
-https://github.com/ialhashim/DenseDepth.
+```
+$ Python >= 3.6
+Pytorch >= 1.6.0
+Ubuntu 16.04
+CUDA 9.2
+cuDNN (if CUDA available)
+```
+## Pretrained model
 
-https://github.com/cogaplex-bts/bts
+download the pre-trained model and keep in the FaceDepth directory:
 
-# Requirements
-pip install...:
-keras, Pillow, matplotlib, opencv-python, scikit-image, sklearn, pathlib, pandas, -U efficientnet, 
-pip install https://www.github.com/keras-team/keras-contrib.git, torch, torchvision
+https://nuigalwayie-my.sharepoint.com/:u:/g/personal/f_khan4_nuigalway_ie/EepkuVajAhdIjZoQm5Weyx4BjXcEZy-uw5OWxxMXq1WJPA?e=rv3aSY
 
-# Data
+## Prepare Dataset for training & Testing 
+
+We prepared the dataset for training and testing<br/>
 contact me on the following email: f.khan4@nuigalway.ie for the complete dataset, I will provide the download link <br/>
 
+#### Random sample frames with high-resolutions RGB images and their corresponding ground truth depth with differentvariations<br/>
 ![data_mix](https://user-images.githubusercontent.com/49758542/106769813-49a85300-6635-11eb-9b73-dd9935f8989d.png)
 
+#### Samples from the generated synthetic data with different variation of head pose
 ![da](https://user-images.githubusercontent.com/49758542/106660977-9ab63980-6598-11eb-8754-3235cfd43bf3.png)
+
+## Live Demo
+We attach live 3d demo implementations for Pytorch. \
+Sample usage for PyTorch:
+```
+$ cd ~/workspace/bts/pytorch
+$ python bts_live_3d.py --model_name bts_nyu_v2_pytorch_densenet161 \
+--encoder densenet161_bts \
+--checkpoint_path ./models/bts_nyu_v2_pytorch_densenet161/model \
+--max_depth 10 \
+--input_height 480 \
+--input_width 640
+```
+
 
 
 
