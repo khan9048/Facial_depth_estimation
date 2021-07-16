@@ -7,8 +7,8 @@
 ## Single Frame Image Facial Depth Estimation
 This is the project page for our research:<br/>
 
-An Efficient Encoder-Decoder Model for Portrait Depth Estimation
-from Single Images trained on Pixel-Accurate Synthetic Data
+An efficient encoder-decoder model for portrait depth estimation from single images trained on pixel-accurate synthetic data<br/>
+https://www.sciencedirect.com/science/article/pii/S0893608021002707
 
 High-Accuracy Facial Depth Models derived from 3D Synthetic Data<br/>
 https://ieeexplore.ieee.org/document/9180166<br/>
@@ -123,6 +123,15 @@ Qualitative results of a facial monocular depth estimation methods
 ## Citation
 If you find this work useful for your research, please consider citing our paper:
 ```
+@article{KHAN2021479,
+title = {An efficient encoder–decoder model for portrait depth estimation from single images trained on pixel-accurate synthetic data},
+journal = {Neural Networks},
+volume = {142},
+pages = {479-491},
+year = {2021},
+issn = {0893-6080},
+doi = {https://doi.org/10.1016/j.neunet.2021.07.007}
+
 @INPROCEEDINGS{9427595,
   author={Khan, Faisal and Basak, Shubhajit and Corcoran, Peter},
   booktitle={2021 IEEE International Conference on Consumer Electronics (ICCE)}, 
