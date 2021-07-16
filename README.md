@@ -125,6 +125,7 @@ If you find this work useful for your research, please consider citing our paper
 ```
 @article{KHAN2021479,
 title = {An efficient encoder–decoder model for portrait depth estimation from single images trained on pixel-accurate synthetic data},
+author = {Faisal Khan and Shahid Hussain and Shubhajit Basak and Joseph Lemley and Peter Corcoran}
 journal = {Neural Networks},
 volume = {142},
 pages = {479-491},
