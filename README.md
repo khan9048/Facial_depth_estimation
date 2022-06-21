@@ -54,7 +54,8 @@ https://nuigalwayie-my.sharepoint.com/:u:/g/personal/f_khan4_nuigalway_ie/EepkuV
 ## Prepare Dataset for training & Testing 
 
 We prepared the dataset for training and testing<br/>
-contact me on the following email: f.khan4@nuigalway.ie for the complete dataset, I will provide the download link <br/>
+https://ieee-dataport.org/documents/c3i-synthetic-face-depth-dataset <br/>
+https://ieee-dataport.org/documents/c3i-synthetic-human-dataset <br/>
 
 #### Random sample frames with high-resolutions RGB images and their corresponding ground truth depth with differentvariations<br/>
 ![image](https://user-images.githubusercontent.com/49758542/120597022-69f9ea00-c43c-11eb-9f45-9ff18161b662.png)
